@@ -1,5 +1,5 @@
 <?php
-namespace Indianicc\Country\Providers;
+namespace Indianic\Country\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +14,7 @@ class CountryServiceProvider extends ServiceProvider
 
 
      public function register(){
-        $this->app->make('Indianicc\Country\Controllers\CountryController');
+        $this->app->make('Indianic\Country\Controllers\CountryController');
      }
 	/**
      * Bootstrap services.

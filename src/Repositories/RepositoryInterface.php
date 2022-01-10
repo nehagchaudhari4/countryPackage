@@ -1,5 +1,5 @@
 <?php
-namespace Indianicc\Country\Repositories;
+namespace Indianic\Country\Repositories;
 
 interface RepositoryInterface
 {

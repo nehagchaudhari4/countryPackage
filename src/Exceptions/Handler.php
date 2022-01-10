@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianicc\Country\Exceptions;
+namespace Indianic\Country\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

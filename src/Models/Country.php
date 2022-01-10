@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianicc\Country\Models;
+namespace Indianic\Country\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia\HasMedia;

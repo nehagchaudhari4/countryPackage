@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianicc\Country\DataGrids;
+namespace Indianic\Country\DataGrids;
 
 use Indianic\LaravelDataGrid\LaravelDataGrid;
 use DB;

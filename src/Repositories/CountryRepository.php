@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianicc\Country\Repositories;
+namespace Indianic\Country\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 

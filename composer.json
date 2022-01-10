@@ -1,5 +1,5 @@
 {
-    "name": "indianicc/country",
+    "name": "indianic/country",
     "description": "Package is for country list.",
     "type": "library",
     "require": {
@@ -13,15 +13,22 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Indianicc\\Country\\": "src/"
+            "Indianic\\Country\\": "src/"
         }
     },
-    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indianic\\Country\\Providers\\CountryServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "nehaPc",
             "email": "nehaychaudhari44@gmail.com"
         }
     ],
+    
     "minimum-stability": "dev"
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianicc\Country\Forms;
+namespace Indianic\Country\Forms;
 
 use Kris\LaravelFormBuilder\Field;
 use Kris\LaravelFormBuilder\Form;
