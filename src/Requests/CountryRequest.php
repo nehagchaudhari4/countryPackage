@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianic\Country\Requests;
+namespace Indianicc\Country\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

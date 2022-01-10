@@ -1,12 +1,12 @@
 <?php
 
-namespace Indianic\Country\Controllers;
+namespace Indianicc\Country\Controllers;
 
 use App\Http\Controllers\Controller;
-use Indianic\Country\Requests\CountryRequest;
-use Indianic\Country\Models\Country;
-use Indianic\Country\DataGrids\CountryDataGrid;
-use Indianic\Country\Repositories\CountryRepository;
+use Indianicc\Country\Requests\CountryRequest;
+use Indianicc\Country\Models\Country;
+use Indianicc\Country\DataGrids\CountryDataGrid;
+use Indianicc\Country\Repositories\CountryRepository;
 use Illuminate\Http\Request;
 use Kris\LaravelFormBuilder\FormBuilder;
 
@@ -46,7 +46,7 @@ class CountryController extends Controller
      */
     public function create(FormBuilder $formBuilder)
     {
-        $form = $formBuilder->create(\Indianic\Country\Forms\CountryForm::class, [
+        $form = $formBuilder->create(\Indianicc\Country\Forms\CountryForm::class, [
                     'method' => 'POST',
                     'class' => 'row',
                     'url' => route('admin.countries.store')
@@ -94,7 +94,7 @@ class CountryController extends Controller
         $id = decrypt($id);
         $model = $this->model->show($id);
         $src = \Storage::url($model->flag);
-        $form = $formBuilder->create('Indianic\Country\Forms\CountryForm', [
+        $form = $formBuilder->create('Indianicc\Country\Forms\CountryForm', [
                     'model' => $model,
                     'class' => 'row',
                     'method' => 'PUT',
