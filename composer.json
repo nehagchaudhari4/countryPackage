@@ -3,7 +3,8 @@
     "description": "Package is for country list.",
     "type": "library",
     "require": {
-       
+        "illuminate/support": "^8.0.2-dev",
+        "illuminate/foundation": "^8.0.2-dev",
         "php": "^7.2||^8.0"
     },
     "require-dev": {
