@@ -28,18 +28,11 @@ class CountryServiceProvider extends ServiceProvider
 
       $this->loadMigrationsFrom(__DIR__.'/../migrations','country');
 
-       $this->publishes([
-            __DIR__.'/assets' => public_path('vendor/country'),
-        ], 'public');
-
+       
         //config
         $this->publishes([
-            __DIR__.'/config/country.php' => config_path('country.php')
+            __DIR__.'/../../config/country.php' => config_path('country.php')
         ], 'config');
-
-        $this->publishes([
-            __DIR__.'/views' => resource_path('views/vendor/country')
-        ], 'views');
 
 	 }
 
