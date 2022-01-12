@@ -1,5 +1,5 @@
 {
-    "name": "indianic/country",
+    "name": "indianicc/country",
     "description": "this is pkg for country list",
     "type": "library",
     "require": {
