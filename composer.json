@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Indianic\\Country\\Providers\\CountryServiceProvider"
+                "Indianic\\Country\\CountryServiceProvider"
             ]
         }
     },
@@ -23,5 +23,6 @@
             "name": "nehaychaudhari44",
             "email": "nehaychaudhari44@gmail.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
