@@ -31,7 +31,7 @@ class CountryServiceProvider extends ServiceProvider
        
         //config
         $this->publishes([
-            __DIR__.'/../../config/country.php' => config_path('country.php')
+            __DIR__.'/../config/country.php' => config_path('country.php')
         ], 'config');
 
 	 }
